@@ -13,7 +13,7 @@ const AdminContextProvider = (props) => {
     const [appointments, setAppointments] = useState([])
     const [dashData,setDashData]=useState(false)
 
-    const backendUrl = import.meta.env.VITE_BACKEND_URL
+    const backendUrl = "https://wellnex-backend-0leo.onrender.com";
 
     //  Getting all Doctors data from Database using API
     const getAllDoctors = async () => {
